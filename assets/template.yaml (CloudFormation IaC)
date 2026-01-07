@@ -1,14 +1,13 @@
-##  Why This Project Matters
+## 🚀 How to Deploy
 
-This project helped me gain **hands-on AWS deployment experience** similar to real-world junior Cloud / DevOps work environments.
+1. Upload `index.html` to an S3 bucket  
+2. Create CloudFormation stack using `template.yaml`  
+3. Configure CloudFront with the S3 bucket as origin  
+4. Access the HTTPS site via CloudFront URL
 
-I am actively exploring opportunities in:
+## 🙌 About Me
 
-✔ Cloud  
-✔ DevOps  
-✔ Infrastructure Engineering  
+I’m an aspiring Cloud & DevOps engineer with hands-on AWS experience and a strong learning mindset.  
+Open to entry-level roles in **Cloud, DevOps, and Infrastructure**.
 
-##  Connect With Me
-
-If you'd like the YAML template or want help building yours, feel free to reach out 🙂
- **Surya Prakash**
+Connect with me on LinkedIn: https://linkedin.com/in/surya-prakash-s-p
