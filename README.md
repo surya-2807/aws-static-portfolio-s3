@@ -7,16 +7,16 @@ This project shows how I deployed a fully functional static website using AWS wi
 ## 📸 Screenshots
 
 ### 🔹 Final Live Website Preview
-![Website Preview](assets/Portfolio.png)
+![Website Preview](assets/Portfolio.jpeg)
 
 ### 🔹 S3 Bucket Setup
-![S3 Bucket Configuration](assets/S3.png)
+![S3 Bucket Configuration](assets/S3.jpeg)
 
 ### 🔹 CloudFront Setup
-![CloudFront Distribution](assets/CloudFront.png)
+![CloudFront Distribution](assets/CloudFront.jpeg)
 
 ### 🔹 CloudFormation Stack Status
-![CloudFormation CREATE_COMPLETE](assets/CloudFormation.png)
+![CloudFormation CREATE_COMPLETE](assets/CloudFormation.jpeg)
 
 ---
 
@@ -43,4 +43,12 @@ This project uses:
 ---
 
 ## 📁 Project Structure
+
+├── assets/
+│ ├── site-preview.png
+│ ├── s3-bucket.png
+│ ├── cloudfront.png
+│ └── cloudformation.png
+├── index.html
+└── template.yaml
 
