@@ -1,76 +1,44 @@
-# AWS Static Website Deployment — S3 + CloudFront + CloudFormation (IaC)
+# AWS Static Website + CloudFront + CloudFormation (IaC)
 
-This project demonstrates how I deployed a **production-ready static website** on AWS using:
-- **Amazon S3** — static website hosting  
-- **AWS CloudFront** — HTTPS + global CDN  
-- **AWS CloudFormation (YAML)** — full Infrastructure-as-Code deployment  
-- **IAM + S3 Bucket Policies** — secure object access  
-
-The goal of this project was to **build cloud deployment skills on real AWS services** while following best practices used in industry.
+This project shows how I deployed a fully functional static website using AWS with proper architecture and automation.
 
 ---
 
-## 🚀 Live Architecture Preview
+## 📸 Screenshots
 
-![Website Preview](assets/site-preview.png)
+### 🔹 Final Live Website Preview
+![Website Preview](assets/Portfolio.png)
 
----
+### 🔹 S3 Bucket Setup
+![S3 Bucket Configuration](assets/S3.png)
 
-## 🏗 Architecture Overview
+### 🔹 CloudFront Setup
+![CloudFront Distribution](assets/CloudFront.png)
 
-### 🔹 Amazon S3 — Website Hosting  
-Stored and served static HTML/CSS content from an S3 bucket configured for static hosting.
-
-### 🔹 AWS CloudFront — CDN + HTTPS  
-Added CloudFront for:
-✔ SSL / HTTPS  
-✔ Global content distribution  
-✔ Better latency & security  
-
-![CloudFront](assets/cloudfront.png)
+### 🔹 CloudFormation Stack Status
+![CloudFormation CREATE_COMPLETE](assets/CloudFormation.png)
 
 ---
 
-### 🔹 AWS CloudFormation — Infrastructure as Code (IaC)
+## 🏗️ Architecture & Tools Used
 
-I wrote a **YAML CloudFormation template** to automatically create:
-✔ S3 bucket  
-✔ Public bucket policy  
-✔ Website hosting configuration  
+This project uses:
 
-This ensured the deployment was:
-✔ Repeatable  
-✔ Version-controlled  
-✔ Automated  
-
-![CloudFormation](assets/cloudformation.png)
+- **Amazon S3** for static website hosting  
+- **AWS CloudFront** as global CDN + HTTPS  
+- **AWS CloudFormation** (YAML) for Infrastructure as Code  
+- **IAM & S3 Policies** for secure access  
+- Basic monitoring using AWS metrics
 
 ---
 
-### 🔹 IAM & S3 Bucket Policy — Secure Access
+## 🧠 What I Learned
 
-Configured bucket policy to allow **only website object read-access**, avoiding over-permission.
-
-![S3 Bucket](assets/s3-bucket.png)
-
----
-
-## 📊 Monitoring & Learning Outcomes
-
-I used **CloudWatch / Console metrics** to understand:
-- Request volume
-- Cache hit ratio
-- Latency behaviour
-
----
-
-## ✔ Key Skills Practiced
-
-- Deploying static websites on AWS
-- Writing CloudFormation YAML
-- Setting IAM & S3 bucket policies
-- Enabling secure HTTPS using CloudFront
-- Understanding production-style architecture
+✔ Hosting static content using S3  
+✔ Configuring CloudFront for HTTPS and caching  
+✔ Writing reproducible infrastructure with CloudFormation  
+✔ Creating secure bucket policies and IAM access  
+✔ Deploying AWS resources using best practices
 
 ---
 
